@@ -1,4 +1,4 @@
-package day08_windowHandle;
+package day9_Actions_testBase;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -32,7 +32,10 @@ WebElement isimKutusu= driver.findElement(By.xpath("//input[@name='firstname']")
         actions.click(isimKutusu).sendKeys("neva").sendKeys(Keys.TAB).sendKeys("ustaoglu").sendKeys(Keys.TAB).sendKeys("dfghjkl").sendKeys(Keys.TAB).
                 sendKeys("123456987").sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys("april").sendKeys(Keys.TAB).sendKeys("15").
                 sendKeys(Keys.TAB).sendKeys("2022").sendKeys(Keys.TAB).
-                sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.ENTER);
+                sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys(Keys.TAB);
+
+
+    isimKutusu .sendKeys(Keys.ENTER);
 
 
 
